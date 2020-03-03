@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nelson Urbaneja">
+    <meta name="description" content="Clon de la página principal de Twitter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./icon/twitter.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./icon/styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta property="og:image" content="./ico/twitter.ico">
+    <title>Home / Twitter</title>
+</head>
+<body>
+    
+    <div class="grid-container" id="container">
+        <!-- menu container -->
+       <div class="menu-container">
+           <a href="#"><i class="icon-twitter"></i></a>
+           <ul class="menu_lateral">
+               <li class="menu_lateral--li active"><a href="#" class="active"><i class="icon-home"></i><span >Home</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-slack"></i><span>Explore</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-bell"></i><span>Notifications</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-mail"></i><span>Messages</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-bookmark"></i><span>Bookmarks</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-list"></i><span>Lists</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-person"></i><span>Profile</span></a></li>
+               <li class="menu_lateral--li"><a href="#"><i class="icon-more"></i><span>More</span></a></li>
+               <li class="menu_lateral--li-2"><i class="icon-feather" id="pluma"></i></li>
+              <!-- <a href="#" class="pluma" id="pluma"><i class="icon-feather"></i></a> -->
+           </ul>
+           <button class="menu_lataral--button" id="boton">Tweet</button>
+       </div>
+
+       <!-- Contenido -->
+       <div class="content-container">  <!-- INICIO DEL CONTAINER DE TODOS LOS CONTENIDO DEL MAIN -->
+           <!-- Header -->
+           <div class="inicio_home">
+                <div class="content-title">
+                    <p class="content-title--title">Home / Desarrollador - <a href="https://www.linkedin.com/in/nelsonurbaneja/" target="_blank">Nelson Urbaneja</a</p>
+                    <a href="#"><i class="icon-star"></i></a>
+                </div>
+ 
+                <div class="content-public">
+                    <div class="comment">
+                    <i class="icon-person"></i>
+                    <input type="text" placeholder="What's Happening?">
+                    </div>
+    
+                    <div class="content-icon">
+                        <div class="icon-var">
+                            <a href="#"><i class="icon-picture"></i></a>
+                            <a href="#"><i class="icon-bar"></i></a>
+                            <a href="#"><i class="icon-smile"></i></a>
+                        </div>
+                        <div class="icon-button">
+                            <a href="#"><i class="icon-plus"></i></a>
+                            <button class="icon-button--button" >Tweet</button>
+                        </div>
+                    </div>
+                </div>
+                <hr class="linea">
+           </div>
+
+           <!-- NoticiaS -->
+          <div class="cards-container">  <!-- INICIO DEL CONTAINER DE CARDS -->
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="logo">
+                    <a href="#"><img src="./img/card/logo.jpg" alt="Avtaar" class="card-logo"></a>
+                    <a href="#"><i class="icon-down"></i></a>
+                </div>
+                <div class="contenido">
+                    <div class="card-header">
+                        <div class="one">
+                             <p class="contenido--title">EDteam <span>@EDteamLat · 2h</span></p>
+                              <p class="contenido--parrafo">Prueba FlowMapp, la herramienta en línea que te permite crear mapas de sitios web y flujos de usuarios que te ayudarán a diseñar y planificar de manera efectiva la experiencia del usuario. Empieza a usarlo en 📌 <a href="https://flowmapp.com">flowmapp.com</a> y síguenos para más <a href="#">#EDtips</a></p>
+                        </div>
+                        <div class="two">
+                          <i class="icon-down-open"></i>
+                        </div>  
+                    </div>
+                  
+                 <div class="container-img">
+                   <img src="./img/card/img4.png" alt="img4" class="img">
+                 </div>
+
+                 <footer class="footer-icon">
+                     <a href="#"><i class="icon-comments"></i></a>
+                     <a href="#"><i class="icon-retweet"></i></a>
+                     <a href="#"><i class="icon-heart"></i></a>
+                     <a href="#"><i class="icon-export"></i></a>
+                 </footer>
+
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                  <div class="logo">
+                      <a href="#"><img src="./img/card/logo.jpg" alt="Avtaar" class="card-logo"></a>
+                      <a href="#"><i class="icon-down"></i></a>
+                  </div>
+                  <div class="contenido">
+                      <div class="card-header">
+                          <div class="one">
+                               <p class="contenido--title">EDteam <span>@EDteamLat · 2h</span></p>
+                                <p class="contenido--parrafo">Seguramente has visto esos pequeños cilindros en muchos de los cables de tus dispositivos, ¿sabías para que sirven? Hoy te lo contamos. 🎓 Aprende más de tecnología en EDteam.
+                                <a href="https://ed.team">🚀 ed.team</a></p>
+                          </div>
+                          <div class="two">
+                            <i class="icon-down-open"></i>
+                          </div>  
+                      </div>
+                    
+                   <div class="container-img">
+                     <img src="./img/card/img1.png" alt="img1" class="img">
+                   </div>
+
+                   <footer class="footer-icon">
+                       <a href="#"><i class="icon-comments"></i></a>
+                       <a href="#"><i class="icon-retweet"></i></a>
+                       <a href="#"><i class="icon-heart"></i></a>
+                       <a href="#"><i class="icon-export"></i></a>
+                   </footer>
+
+                  </div>
+            </div>
+
+             <!-- Card 3 -->
+            <div class="card">
+                <div class="logo">
+                    <a href="#"><img src="./img/card/logo.jpg" alt="Avtaar" class="card-logo"></a>
+                    <a href="#"><i class="icon-down"></i></a>
+                </div>
+                <div class="contenido">
+                    <div class="card-header">
+                        <div class="one">
+                             <p class="contenido--title">EDteam <span>@EDteamLat · 2h</span></p>
+                              <p class="contenido--parrafo">Las ramas en Git y la manera en cómo las implementa en su sistema de versiones hace que Git sea el gestor de versiones más poderoso e importante en el mundo del desarrollo de software. En este artículo te explicaré que son y cómo funcionan. 
+                              <a href="https://ed.team/blog/ramas-con-git">ed.team/blog/ramas-con-git</a></p>
+                        </div>
+                        <div class="two">
+                          <i class="icon-down-open"></i>
+                        </div>  
+                    </div>
+                  
+                 <div class="container-img">
+                   <img src="./img/card/img2.png" alt="img2" class="img">
+                 </div>
+
+                 <footer class="footer-icon">
+                     <a href="#"><i class="icon-comments"></i></a>
+                     <a href="#"><i class="icon-retweet"></i></a>
+                     <a href="#"><i class="icon-heart"></i></a>
+                     <a href="#"><i class="icon-export"></i></a>
+                 </footer>
+
+                </div>
+            </div>
+
+            <hr class="linea-2">
+             <!-- aqui una nueva tends de follow -->
+            <div class="container-tends--cards">
+                <div class="header-tends--cards">
+                    <h4 class="follow-title">Who to follow</h4>
+                    <a href="#"></a><i class="icon-down-open"></i>
+                </div>
+
+                <div class="content-tends">
+                    <div class="item-tends">
+                        <div class="all-partes">
+                            <div class="parte1">
+                                <div class="img-container">
+                                    <img src="./img/avatar1.jpg" alt="avatar1" class="img">
+                                </div>
+                                <div class="description-container">
+                                    <p class="title-description">Jorge V</p>
+                                    <p class="subtitle-description">@jorge_vgut</p>
+                                </div>
+                            </div>
+                            <div class="parte2">
+                                <a href="#" class="button-follow">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-tends">
+                        <div class="all-partes">
+                            <div class="parte1">
+                                <div class="img-container">
+                                    <img src="./img/avatar2.jpg" alt="avatar2" class="img">
+                                </div>
+                                <div class="description-container">
+                                    <p class="title-description">Víctor Robles WEB</p>
+                                    <p class="subtitle-description">@victorobs</p>
+                                </div>
+                            </div>
+                            <div class="parte2">
+                                <a href="#" class="button-follow">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-tends">
+                        <div class="all-partes">
+                            <div class="parte1">
+                                <div class="img-container">
+                                    <img src="./img/avatar3.jpg" alt="avatar3" class="img">
+                                </div>
+                                <div class="description-container">
+                                    <p class="title-description">Udemy en español</p>
+                                    <p class="subtitle-description">@udemy_es</p>
+                                </div>
+                            </div>
+                            <div class="parte2">
+                                <a href="#" class="button-follow">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class=" show">
+                        <a href="#">Show more</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="linea-2">
+             <!-- Card 4 -->
+            <div class="card">
+                <div class="logo">
+                    <a href="#"><img src="./img/card/logo.jpg" alt="Avtaar" class="card-logo"></a>
+                    <a href="#"><i class="icon-down"></i></a>
+                </div>
+                <div class="contenido">
+                    <div class="card-header">
+                        <div class="one">
+                             <p class="contenido--title">EDteam <span>@EDteamLat · 2h</span></p>
+                              <p class="contenido--parrafo">Comprime imágenes utilizando TinyPNG y Gulp, es más facil de lo que crees, en este post te enseñaremos como hacerlo.
+                              <a href="https://ed.team/blog/comprime-imagenes-utilizando-tinypng-y-gulp">ed.team/blog/comprime-imagenes-utilizando-tinypng-y-gulp</a></p>
+                        </div>
+                        <div class="two">
+                          <i class="icon-down-open"></i>
+                        </div>  
+                    </div>
+                  
+                 <div class="container-img">
+                   <img src="./img/card/img3.png" alt="img3" class="img">
+                 </div>
+
+                 <footer class="footer-icon">
+                     <a href="#"><i class="icon-comments"></i></a>
+                     <a href="#"><i class="icon-retweet"></i></a>
+                     <a href="#"><i class="icon-heart"></i></a>
+                     <a href="#"><i class="icon-export"></i></a>
+                 </footer>
+
+                </div>
+            </div>
+
+             <!-- Card 5 -->
+            <div class="card">
+                <div class="logo">
+                    <a href="#"><img src="./img/card/logo.jpg" alt="Avtaar" class="card-logo"></a>
+                    <a href="#"><i class="icon-down"></i></a>
+                </div>
+                <div class="contenido">
+                    <div class="card-header">
+                        <div class="one">
+                             <p class="contenido--title">EDteam <span>@EDteamLat · 2h</span></p>
+                              <p class="contenido--parrafo">Las ramas en Git y la manera en cómo las implementa en su sistema de versiones hace que Git sea el gestor de versiones más poderoso e importante en el mundo del desarrollo de software. En este artículo te explicaré que son y cómo funcionan. 
+                              <a href="https://ed.team/blog/ramas-con-git">ed.team/blog/ramas-con-git</a></p>
+                        </div>
+                        <div class="two">
+                          <i class="icon-down-open"></i>
+                        </div>  
+                    </div>
+                  
+                 <div class="container-img">
+                   <img src="./img/card/img2.png" alt="img2" class="img">
+                 </div>
+
+                 <footer class="footer-icon">
+                     <a href="#"><i class="icon-comments"></i></a>
+                     <a href="#"><i class="icon-retweet"></i></a>
+                     <a href="#"><i class="icon-heart"></i></a>
+                     <a href="#"><i class="icon-export"></i></a>
+                 </footer>
+
+                </div>
+            </div>
+          </div> <!-- FIN DEL CONTAINER DE CARDS -->
+       </div> <!-- FIN DEL CONTAINER DE TODOS LOS CONTENIDO DEL MAIN -->
+
+       <!-- Tendencias -->
+       <div class="tends-container">
+           <div class="container-input" id="containerInput">
+               <i class="icon-search"></i><input type="text" placeholder="Search Twitter" id="inputT">
+           </div>
+
+           <div class="container-tends">
+               <div class="header-tends">
+                    <h4>Trends for you</h4>
+                    <a href="#"><i class="icon-tools"></i></a>
+               </div>
+
+               <div class="content-tends">
+                   <div class="item-tends">
+                       <div class="title">
+                           <p>Trending in Venezuela</p>
+                           <i class="icon-down-open"></i>
+                       </div>
+                       <div class="hash">
+                           <p>#ULTIMAHORA</p>
+                       </div>
+                       <div class="tweet">
+                           <p>22.1K Tweets</p>
+                       </div>
+                   </div>
+                  
+                    <div class="item-tends">
+                        <div class="title">
+                            <p>Trending in Venezuela</p>
+                            <i class="icon-down-open"></i>
+                        </div>
+                        <div class="hash">
+                            <p>#dolar</p>
+                        </div>
+                        <div class="tweet">
+                            <p>20.2K Tweets</p>
+                        </div>
+                    </div>
+                 
+                    <div class="item-tends">
+                        <div class="title">
+                            <p>Trending in Venezuela</p>
+                            <i class="icon-down-open"></i>
+                        </div>
+                        <div class="hash">
+                            <p>#DivisasMonitor</p>
+                        </div>
+                        <div class="tweet">
+                            <p>8,057 Tweets</p>
+                        </div>
+                    </div>
+                   
+                    <div class="item-tends">
+                        <div class="title">
+                            <p>Trending in Venezuela</p>
+                            <i class="icon-down-open"></i>
+                        </div>
+                        <div class="hash">
+                            <p>Optra</p>
+                        </div>
+                        <div class="tweet">
+                            <p>28,057 Tweets</p>
+                        </div>
+                    </div>
+                  
+                    <div class="item-tends">
+                        <div class="title">
+                            <p>Trending in Venezuela</p>
+                            <i class="icon-down-open"></i>
+                        </div>
+                        <div class="hash">
+                            <p>Padrino</p>
+                        </div>
+                        <div class="tweet">
+                            <p>9,272 Tweets</p>
+                        </div>
+                    </div>
+                  
+                    <div class=" show">
+                       <a href="#">Show more</a>
+                    </div>
+               </div>
+           </div>
+
+           
+               <!-- Section de Follow  -->
+
+               <div class="container-tends">
+                    <div class="header-tends">
+                        <h4 class="follow-title">Who to follow</h4>
+                    </div>
+
+                    <div class="content-tends">
+                        <div class="item-tends">
+                            <div class="all-partes">
+                                <div class="parte1">
+                                    <div class="img-container">
+                                        <img src="./img/avatar1.jpg" alt="avatar1" class="img">
+                                    </div>
+                                    <div class="description-container">
+                                        <p class="title-description">Jorge V</p>
+                                        <p class="subtitle-description">@jorge_vgut</p>
+                                    </div>
+                                </div>
+                                <div class="parte2">
+                                    <a href="#" class="button-follow">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-tends">
+                            <div class="all-partes">
+                                <div class="parte1">
+                                    <div class="img-container">
+                                        <img src="./img/avatar2.jpg" alt="avatar2" class="img">
+                                    </div>
+                                    <div class="description-container">
+                                        <p class="title-description">Víctor Robles WEB</p>
+                                        <p class="subtitle-description">@victorobs</p>
+                                    </div>
+                                </div>
+                                <div class="parte2">
+                                    <a href="#" class="button-follow">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-tends">
+                            <div class="all-partes">
+                                <div class="parte1">
+                                    <div class="img-container">
+                                        <img src="./img/avatar3.jpg" alt="avatar3" class="img">
+                                    </div>
+                                    <div class="description-container">
+                                        <p class="title-description">Udemy en español</p>
+                                        <p class="subtitle-description">@udemy_es</p>
+                                    </div>
+                                </div>
+                                <div class="parte2">
+                                    <a href="#" class="button-follow">Follow</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class=" show">
+                            <a href="#">Show more</a>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="ContainerFooter">
+                <div class="footerOne">
+                    <a href="#">Terms</a>  
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Ads info</a>
+                </div>
+                <div class="footerTwo">
+                    <div class="moreIcon">
+                        <a href="#">More</a>
+                        <i class="icon-down-o"></i>
+                    </div>
+                    <div class="copy-p">
+                         <p> © 2020 Twitter, Inc.</p>
+                    </div>
+                   
+                </div>
+            </div>
+ 
+       </div> <!-- Fin del tends container-->
+       
+    </div> <!-- Fin del grid container-->
+   
+
+
+        
+    <script src="./js/js.js"></script>
+       
+
+</body>
+</html>
